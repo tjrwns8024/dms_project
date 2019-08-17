@@ -5,4 +5,10 @@
     <color name="colorAccent">#D81B60</color>
     <color name="white">#FFFFFF</color>
     <color name="Intro_back">#7A7373</color>
+    <color name="blue">#4EA2D6</color>
+    <color name="black">#000000</color>
+    <color name="nred">#751515</color>
+    <color name="bred">#F83E3E</color>
+    <color name="pink">#F5B0B0</color>
+    <color name="wpink">#F75151</color>
 </resources>

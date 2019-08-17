@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="GUIDE"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        android:fontFamily="casual"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="git init"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:background="@color/blue"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal"
+        android:text="Create a new repository "
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:background="@color/blue"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="git clone/로컬/저장소/경로"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal"
+        android:text="Receive repository"
+        android:textColor="@color/black"
+        android:textSize="25dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="@string/git_add_file_name"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:background="@color/bred"
+        android:textColor="@color/nred"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal"
+        android:background="@color/bred"
+        android:text="Addition "
+        android:textColor="@color/nred"
+        android:textSize="25dp"/>
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:text="git push origin master"
+    android:textSize="30dp"
+    android:textStyle="bold"
+    android:background="@color/pink"
+    android:textColor="@color/wpink"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal"
+        android:background="@color/pink"
+        android:text="Push changes"
+        android:textColor="@color/wpink"
+        android:textSize="25dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="@string/git_remote_add_origin"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:background="@color/pink"
+        android:textColor="@color/wpink"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal"
+        android:background="@color/pink"
+        android:text="Telling the address of address"
+        android:textColor="@color/wpink"
+        android:textSize="25dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="-------USEFUL HINT-------"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:background="#FFFFFF"
+        android:textColor="@color/black"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal"
+        android:background="#F0E227"
+        android:text="gitk"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="30dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal"
+        android:background="#F0E227"
+        android:text="git의 내장 GUI"
+        android:textColor="@color/black"
+        android:textSize="25dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ETC..."
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="50dp"
+        android:background="@color/black"
+        android:fontFamily="casual"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal"/>
+
+
+
+
+</LinearLayout>
+
+</ScrollView>
+
+
+

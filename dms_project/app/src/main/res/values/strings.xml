@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">dms_project</string>
+    <string name="git_add_file_name_git_commit_m_explain"><![CDATA[git add<file name> git commit -m<explain>]]></string>
+    <string name="git_add_file_name"><![CDATA[git add <file name>]]></string>
+    <string name="git_remote_add_origin"><![CDATA[git remote add origin<원격 서버 주소>]]></string>
 </resources>
