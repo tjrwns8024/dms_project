@@ -11,16 +11,15 @@ import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.WindowManager;
-import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
     // FrameLayout에 각 메뉴의 Fragment를 바꿔 줌
     private FragmentManager fragmentManager = getSupportFragmentManager();
-    // 4개의 메뉴에 들어갈 Fragment들
-    private Menu1Fragment menu1Fragment = new Menu1Fragment();
-    private Menu2Fragment menu2Fragment = new Menu2Fragment();
-    private Menu3Fragment menu3Fragment = new Menu3Fragment();
+    // 3개의 메뉴에 들어갈 Fragment들
+    private profile profile = new profile();
+    private announcement announcement = new announcement();
+    private guide guide = new guide();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,24 +33,24 @@ public class MainActivity extends AppCompatActivity {
         BottomNavigationView bottomNavigationView = findViewById(R.id.bottom_navigation_view);
 
         FragmentTransaction transaction = fragmentManager.beginTransaction();
-        transaction.replace(R.id.frame_layout, menu1Fragment).commitAllowingStateLoss();
+        transaction.replace(R.id.frame_layout, profile).commitAllowingStateLoss();
 
-        // bottomNavigationView의 아이템이 선택될 때 호출될 리스너 등록
+
         bottomNavigationView.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
             @Override
                 public boolean onNavigationItemSelected(@NonNull MenuItem item) {
                 FragmentTransaction transaction = fragmentManager.beginTransaction();
                 switch (item.getItemId()) {
                     case R.id.navigation_menu1: {
-                        transaction.replace(R.id._layout, menu1Fragment).commitAllowingStateLoss();
+                        transaction.replace(R.id.frame_layout, profile).commitAllowingStateLoss();
                         break;
                     }
                     case R.id.navigation_menu2: {
-                        transaction.replace(R.id.frame_layout, menu2Fragment).commitAllowingStateLoss();
+                        transaction.replace(R.id.frame_layout, announcement).commitAllowingStateLoss();
                         break;
                     }
                     case R.id.navigation_menu3: {
-                        transaction.replace(R.id.frame_layout, menu3Fragment).commitAllowingStateLoss();
+                        transaction.replace(R.id.frame_layout, guide).commitAllowingStateLoss();
                         break;
                     }
                 }
